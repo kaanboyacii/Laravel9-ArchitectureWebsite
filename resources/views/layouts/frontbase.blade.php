@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <title>@yield("title")</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="iz mimarlık, mimarlık, tire iz mimarlık, tamirat, tadilat, mimar, iz" name="keywords">
+    <meta content="Tire'de kurulmuş olan İz mimarlık, Mimar Ali Orkun Boyacı ve İç Mimar Ezgi Boyacı tarafından organizasyonlarını yürütmekte. İz Mimarlık çeşitli konut servisleri ile hizmetinizde." name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{asset('assets')}}/img/icons/icon-1.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
