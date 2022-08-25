@@ -221,6 +221,33 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <h4 class="section-title">Özsan Ofis Tasarım</h4>
+      </div>
+      <div class="row g-0 team-items">
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="team-item position-relative">
+            <div class="position-relative zoom"><img class="img-fluid" src="{{asset('assets')}}/img/gallery/ozsan" alt=""/></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="team-item position-relative">
+            <div class="position-relative zoom"><img class="img-fluid" src="{{asset('assets')}}/img/gallery/yuvalı/yuvalı-dış1.jpeg" alt=""/></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="team-item position-relative">
+            <div class="position-relative zoom"><img class="img-fluid" src="{{asset('assets')}}/img/gallery/yuvalı/yuvalı-dış2.jpeg" alt=""/></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+          <div class="team-item position-relative">
+            <div class="position-relative zoom"><img class="img-fluid" src="{{asset('assets')}}/img/gallery/yuvalı/yuvalı-iç1.jpg" alt=""/></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 @endsection('content')
