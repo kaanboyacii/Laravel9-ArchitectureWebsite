@@ -14,20 +14,13 @@ use Illuminate\Http\Request;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', [HomeController::class, 'index'])->name('home');
-
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.index');
 });
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/anasayfa', [HomeController::class, 'index'])->name('index');
 Route::get('/iletişim', [HomeController::class, 'contact'])->name('contact');
 Route::get('/hakkımızda', [HomeController::class, 'about'])->name('about');
 Route::get('/projelerimiz', [HomeController::class, 'projects'])->name('projects');
 Route::get('/servislerimiz', [HomeController::class, 'services'])->name('services');
-
-
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');

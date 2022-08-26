@@ -10,7 +10,8 @@
                     <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>boyaciorkun@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-sm-square btn-outline-body me-1" href="https://tr-tr.facebook.com/orkun.boyaci.37"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/_izmimarlik_/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-outline-body me-1" href="https://www.instagram.com/_izmimarlik_/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.youtube.com/channel/UCM4TwPhU_RbJSu_JoOkslwA/featured"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
